@@ -4,6 +4,6 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 declare module "*.pug" {
-  const template: string;
+  const template: (locals?: any) => string;
   export default template;
 }
