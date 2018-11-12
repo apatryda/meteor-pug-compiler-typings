@@ -1,9 +1,9 @@
 // Type definitions for meteor/apatryda:pug-compiler package
-// Project: https://github.com/apatryda/pug-compiler
+// Project: https://github.com/apatryda/meteor-pug-compiler
 // Definitions by: Artur Nerkowski <https://github.com/apatryda>
-// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// Definitions: https://github.com/apatryda/meteor-pug-compiler-typings
 
 declare module "*.pug" {
   const template: (locals?: any) => string;
-  export default template;
+  export = template;
 }
